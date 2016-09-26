@@ -1,0 +1,47 @@
+
+
+.tablaJuego table{
+    border-color: #0f0f0f; 
+    border-spacing: 11px; 
+    border-collapse: separate;
+    background: #2c2a2a
+}
+
+
+.ficha {
+    background-color: #ffffff;
+    
+    width: 60px;
+    height: 60px;
+        border-radius: 200px 200px 200px 200px;
+        -moz-border-radius: 200px 200px 200px 200px;
+        -webkit-border-radius: 200px 200px 200px 200px;
+        border: 2px solid #000000;
+}
+
+
+.celdaSuperior {
+    border-color: white; 
+    border-collapse: separate;
+    background: white;
+    
+    width: 60px;
+    height: 60px;
+}
+
+.ponerFicha:hover {
+    width: 60px;
+    height: 60px;
+        border-radius: 200px 200px 200px 200px;
+        -moz-border-radius: 200px 200px 200px 200px;
+        -webkit-border-radius: 200px 200px 200px 200px;
+        background: red;
+}
+
+.enBlanco table{
+    border-color: white; 
+    border-spacing: 11px; 
+    border-collapse: separate;
+    background: white;
+}
+
